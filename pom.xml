@@ -41,7 +41,22 @@
             </archive>
           </configuration>
         </plugin>
-
+        <plugin>
+         <groupId>triemax</groupId>
+         <artifactId>jalopy-maven</artifactId>
+         <version>1.9.4-108</version>
+         <configuration>
+           <compile>true</compile>
+         </configuration>
+         <executions>
+           <execution>
+             <phase>process-sources</phase>
+             <goals>
+               <goal>format</goal>
+             </goals>
+           </execution>
+         </executions>
+        </plugin>
     </plugins>
   </build>
 
