@@ -1,6 +1,10 @@
 # Trabajo realizado
 - Se ha añadido una nueva dependencia al proyecto. Esta dependencia es el conector MySql, que sera necesaria en tiempo de compilacion
 
+- Se ha añadido tres puglins:
+  1. **maven-jar-plugin** - se usará para generar un jar de nuestro proyecto en la carpeta target/ , cuando ejecutemos el comando ```mvn package```
+
+  
 # Introduccion a Maven
 ### Creación de un nuevo proyecto
 Para crear un proyecto maven tenemos que escribir en consola lo siguiente: 
