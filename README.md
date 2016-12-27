@@ -3,6 +3,7 @@
 
 - Se ha añadido tres puglins:
   1. **maven-jar-plugin** - se usará para generar un jar de nuestro proyecto en la carpeta target/ , cuando ejecutemos el comando ```mvn package```
+  2. **jalopy** - se usará para formatear el codigo de nuestro proyecto, cuando ejecutemos el comando ```mvn jalopy:format```
 
   
 # Introduccion a Maven
