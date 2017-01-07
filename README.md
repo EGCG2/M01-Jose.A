@@ -3,7 +3,7 @@
 
 - Se ha añadido tres puglins:
   1. **maven-jar-plugin** - se usará para generar un jar de nuestro proyecto en la carpeta target/ , cuando ejecutemos el comando ```mvn package```
-  2. **jalopy** - se usará para formatear el codigo de nuestro proyecto, cuando ejecutemos el comando ```mvn jalopy:format```
+  2. **cobertura** - se usará para ver la cobertura que estamos cubriendo con nuestros test```mvn cobertura:cobertura```. Este plugin nos proporciona una interfaz web para ver visualmente que partes del codigo estamos cubriendo con los test. Hay que ir a la carpeta /M01-Jose.A\target\site\cobertura y abriendo en el navegador el archivo index.html tendremos la dashboard.
 
   
 # Introduccion a Maven
